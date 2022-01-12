@@ -1,5 +1,88 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <annotations textSource="acsh-org_20170607T114623.txt">
+<<<<<<< HEAD
+=======
+    <annotation>
+        <mention id="EHOST_Instance_1523" />
+        <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
+        <span start="59" end="63" />
+        <spannedText>anti</spannedText>
+        <creationDate>Wed Jan 12 14:50:17 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1523">
+        <mentionClass id="NegCue">anti</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1524" />
+        <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
+        <span start="349" end="352" />
+        <spannedText>dis</spannedText>
+        <creationDate>Wed Jan 12 14:50:45 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1524">
+        <mentionClass id="NegCue">dis</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1525" />
+        <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
+        <span start="535" end="539" />
+        <spannedText>anti</spannedText>
+        <creationDate>Wed Jan 12 14:57:13 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1525">
+        <mentionClass id="NegCue">anti</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1526" />
+        <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
+        <span start="818" end="820" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 14:57:54 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1526">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1527" />
+        <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
+        <span start="1179" end="1184" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Wed Jan 12 14:58:47 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1527">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1528" />
+        <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
+        <span start="1246" end="1249" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 14:58:53 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1528">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1529" />
+        <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
+        <span start="1692" end="1696" />
+        <spannedText>anti</spannedText>
+        <creationDate>Wed Jan 12 14:59:15 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1529">
+        <mentionClass id="NegCue">anti</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_1530" />
+        <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
+        <span start="1816" end="1819" />
+        <spannedText>not</spannedText>
+        <creationDate>Wed Jan 12 14:59:23 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1530">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+>>>>>>> parent of 960f001 (edited wrongly annotated negations based on IAA results)
     <eHOST_Adjudication_Status version="1.0">
         <Adjudication_Selected_Annotators version="1.0">
             <Annotator>Sebastiaan Peek</Annotator>
