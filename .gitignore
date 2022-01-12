@@ -154,11 +154,14 @@ cython_debug/
 
 # files
 *.pdf
+*.zip
 
 # eHost
 ehost-bp-1/
 ATM_assignment1/
 readings/
 
+# batch files per student
+corpus/
+
 # XML files
-*.xml
