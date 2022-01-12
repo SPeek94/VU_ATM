@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<annotations textSource="avn-org-au_20170316T033821.txt">
+<annotations textSource="ABC-News_20170511T203024.txt">
     <eHOST_Adjudication_Status version="1.0">
         <Adjudication_Selected_Annotators version="1.0">
             <Annotator>Sebastiaan Peek</Annotator>
@@ -18,4 +17,3 @@
         </Adjudication_Others>
     </eHOST_Adjudication_Status>
 </annotations>
-
