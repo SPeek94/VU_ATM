@@ -1,0 +1,29 @@
+<html>
+<head><title>Class and span matcher</title></head>
+<body style="margin: 2 5 5 5; font-family: Candara;">
+<div><a href="index.html"><b> [Back to the index.html]</b></a><br></div>
+<h1>Class and span matcher</h1>
+Annotations match if they have exact same spans, with same classes.
+<hr>
+<p>
+<h2>2-way IAA Results</h2>
+IAA calculated on 11 documents.
+<div>all annotations = matches + non-matches
+<br> IAA = matches / all annotations
+</div>
+<p>For annotations between Annotator[Sebastiaan Peek] and Annotator[Stan]:</p>
+<table border=1><tr><td><b>Type</b></td><td><b>IAA</b></td>
+<td><b>matches</b></td>
+<td><b>non-matches</b></td>
+</tr>
+<tr><td><b>All selected classes</b></td><td>85.4%</td><td>70</td><td>12</td></tr>
+<tr><td><b>NegCue</b></td><td>85.4%</td><td>70</td><td>12</td></tr>
+</table>
+<br>
+<h2>Pair-wise agreement</h2>
+<table border=1><tr><td><b>Gold standard set</b></td><td><b>compared set</b></td><td><b>true positives</b></td><td><b>false positives</b></td><td><b>false negatives</b></td><td><b>recall</b></td><td><b>precision</b></td><td><b>F-measure</b></td></tr>
+<tr><td>Sebastiaan Peek</td><td>Stan</td><td>35</td><td>6</td><td>6</td><td>85.4%</td><td>85.4%</td><td>85.4%</td></tr>
+<tr><td>Stan</td><td>Sebastiaan Peek</td><td>35</td><td>6</td><td>6</td><td>85.4%</td><td>85.4%</td><td>85.4%</td></tr>
+</table>
+Precision and recall are given equal weight for the F-score.
+<div><a href="index.html"><b><br>[Back to the index.html]</b></a><br></div>

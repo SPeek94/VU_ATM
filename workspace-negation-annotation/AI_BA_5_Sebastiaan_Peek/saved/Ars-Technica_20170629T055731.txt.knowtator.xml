@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <annotations textSource="Ars-Technica_20170629T055731.txt">
     <eHOST_Adjudication_Status version="1.0">
-        <Adjudication_Selected_Annotators version="1.0" />
-        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Selected_Annotators version="1.0">
+            <Annotator>Sebastiaan Peek</Annotator>
+            <Annotator>Stan</Annotator>
+            <Annotator>ADJUDICATION</Annotator>
+        </Adjudication_Selected_Annotators>
+        <Adjudication_Selected_Classes version="1.0">
+            <Class>NegCue</Class>
+        </Adjudication_Selected_Classes>
         <Adjudication_Others>
             <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
             <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
