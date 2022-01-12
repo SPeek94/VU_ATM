@@ -1,93 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <annotations textSource="acsh-org_20170607T114623.txt">
     <annotation>
-        <mention id="EHOST_Instance_5198" />
+        <mention id="EHOST_Instance_274" />
         <annotator id="eHOST_2010">Stan</annotator>
-        <span start="59" end="71" />
-        <spannedText>anti-vaccine</spannedText>
-        <creationDate>Wed Jan 12 11:51:39 CET 2022</creationDate>
+        <span start="59" end="63" />
+        <spannedText>anti</spannedText>
+        <creationDate>Wed Jan 12 17:22:51 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_5198">
-        <mentionClass id="NegCue">anti-vaccine</mentionClass>
+    <classMention id="EHOST_Instance_274">
+        <mentionClass id="NegCue">anti</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_5199" />
+        <mention id="EHOST_Instance_275" />
         <annotator id="eHOST_2010">Stan</annotator>
-        <span start="349" end="362" />
-        <spannedText>disheartening</spannedText>
-        <creationDate>Wed Jan 12 11:51:51 CET 2022</creationDate>
+        <span start="349" end="352" />
+        <spannedText>dis</spannedText>
+        <creationDate>Wed Jan 12 17:22:46 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_5199">
-        <mentionClass id="NegCue">disheartening</mentionClass>
+    <classMention id="EHOST_Instance_275">
+        <mentionClass id="NegCue">dis</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_5200" />
+        <mention id="EHOST_Instance_276" />
         <annotator id="eHOST_2010">Stan</annotator>
-        <span start="535" end="547" />
-        <spannedText>anti-vaccine</spannedText>
-        <creationDate>Wed Jan 12 11:52:02 CET 2022</creationDate>
+        <span start="535" end="539" />
+        <spannedText>anti</spannedText>
+        <creationDate>Wed Jan 12 17:22:55 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_5200">
-        <mentionClass id="NegCue">anti-vaccine</mentionClass>
+    <classMention id="EHOST_Instance_276">
+        <mentionClass id="NegCue">anti</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_5201" />
+        <mention id="EHOST_Instance_277" />
         <annotator id="eHOST_2010">Stan</annotator>
-        <span start="818" end="828" />
-        <spannedText>unlicensed</spannedText>
-        <creationDate>Wed Jan 12 11:52:20 CET 2022</creationDate>
+        <span start="818" end="820" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 17:23:17 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_5201">
-        <mentionClass id="NegCue">unlicensed</mentionClass>
+    <classMention id="EHOST_Instance_277">
+        <mentionClass id="NegCue">un</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_5202" />
+        <mention id="EHOST_Instance_278" />
         <annotator id="eHOST_2010">Stan</annotator>
-        <span start="830" end="839" />
-        <spannedText>disgraced</spannedText>
-        <creationDate>Wed Jan 12 11:52:24 CET 2022</creationDate>
+        <span start="830" end="833" />
+        <spannedText>dis</spannedText>
+        <creationDate>Wed Jan 12 17:23:21 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_5202">
-        <mentionClass id="NegCue">disgraced</mentionClass>
+    <classMention id="EHOST_Instance_278">
+        <mentionClass id="NegCue">dis</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_5203" />
+        <mention id="EHOST_Instance_279" />
         <annotator id="eHOST_2010">Stan</annotator>
-        <span start="1177" end="1184" />
-        <spannedText>donâ€™t</spannedText>
-        <creationDate>Wed Jan 12 11:52:49 CET 2022</creationDate>
+        <span start="1179" end="1184" />
+        <spannedText>nâ€™t</spannedText>
+        <creationDate>Wed Jan 12 17:23:06 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_5203">
-        <mentionClass id="NegCue">donâ€™t</mentionClass>
+    <classMention id="EHOST_Instance_279">
+        <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_5204" />
+        <mention id="EHOST_Instance_280" />
         <annotator id="eHOST_2010">Stan</annotator>
         <span start="1246" end="1249" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 11:52:56 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_5204">
+    <classMention id="EHOST_Instance_280">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_5205" />
+        <mention id="EHOST_Instance_281" />
         <annotator id="eHOST_2010">Stan</annotator>
-        <span start="1692" end="1701" />
-        <spannedText>anti-vaxx</spannedText>
-        <creationDate>Wed Jan 12 11:53:20 CET 2022</creationDate>
+        <span start="1692" end="1696" />
+        <spannedText>anti</spannedText>
+        <creationDate>Wed Jan 12 17:23:11 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_5205">
-        <mentionClass id="NegCue">anti-vaxx</mentionClass>
+    <classMention id="EHOST_Instance_281">
+        <mentionClass id="NegCue">anti</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_5206" />
+        <mention id="EHOST_Instance_282" />
         <annotator id="eHOST_2010">Stan</annotator>
         <span start="1816" end="1819" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 11:53:36 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_5206">
+    <classMention id="EHOST_Instance_282">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <eHOST_Adjudication_Status version="1.0">

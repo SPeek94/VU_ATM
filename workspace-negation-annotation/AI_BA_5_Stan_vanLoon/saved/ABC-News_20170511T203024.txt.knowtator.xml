@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <annotations textSource="ABC-News_20170511T203024.txt">
     <annotation>
-        <mention id="EHOST_Instance_5195" />
+        <mention id="EHOST_Instance_271" />
         <annotator id="eHOST_2010">Stan</annotator>
         <span start="1008" end="1010" />
         <spannedText>un</spannedText>
         <creationDate>Wed Jan 12 15:05:07 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_5195">
+    <classMention id="EHOST_Instance_271">
         <mentionClass id="NegCue">un</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_5196" />
+        <mention id="EHOST_Instance_272" />
         <annotator id="eHOST_2010">Stan</annotator>
         <span start="2741" end="2743" />
         <spannedText>un</spannedText>
         <creationDate>Wed Jan 12 15:05:13 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_5196">
+    <classMention id="EHOST_Instance_272">
         <mentionClass id="NegCue">un</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_5197" />
+        <mention id="EHOST_Instance_273" />
         <annotator id="eHOST_2010">Stan</annotator>
         <span start="4121" end="4131" />
         <spannedText>opt out of</spannedText>
         <creationDate>Wed Jan 12 15:08:53 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_5197">
+    <classMention id="EHOST_Instance_273">
         <mentionClass id="NegCue">opt out of</mentionClass>
     </classMention>
     <eHOST_Adjudication_Status version="1.0">
