@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <annotations textSource="acsh-org_20170607T114623.txt">
     <eHOST_Adjudication_Status version="1.0">
         <Adjudication_Selected_Annotators version="1.0">
@@ -18,4 +18,3 @@
         </Adjudication_Others>
     </eHOST_Adjudication_Status>
 </annotations>
-
