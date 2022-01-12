@@ -1,34 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <annotations textSource="ABC-News_20170511T203024.txt">
     <annotation>
-        <mention id="EHOST_Instance_1521" />
+        <mention id="EHOST_Instance_748" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="1008" end="1010" />
         <spannedText>un</spannedText>
         <creationDate>Wed Jan 12 14:46:23 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_1521">
+    <classMention id="EHOST_Instance_748">
         <mentionClass id="NegCue">un</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_1522" />
+        <mention id="EHOST_Instance_749" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2741" end="2743" />
         <spannedText>un</spannedText>
         <creationDate>Wed Jan 12 14:47:46 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_1522">
+    <classMention id="EHOST_Instance_749">
         <mentionClass id="NegCue">un</mentionClass>
     </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_750" />
+        <annotator id="eHOST_2010">Stan</annotator>
+        <span start="1008" end="1010" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 15:05:07 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_750">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_751" />
+        <annotator id="eHOST_2010">Stan</annotator>
+        <span start="2741" end="2743" />
+        <spannedText>un</spannedText>
+        <creationDate>Wed Jan 12 15:05:13 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_751">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_752" />
+        <annotator id="eHOST_2010">Stan</annotator>
+        <span start="4121" end="4131" />
+        <spannedText>opt out of</spannedText>
+        <creationDate>Wed Jan 12 15:08:53 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_752">
+        <mentionClass id="NegCue">opt out of</mentionClass>
+    </classMention>
     <eHOST_Adjudication_Status version="1.0">
-        <Adjudication_Selected_Annotators version="1.0">
-            <Annotator>Sebastiaan Peek</Annotator>
-            <Annotator>Stan</Annotator>
-            <Annotator>ADJUDICATION</Annotator>
-        </Adjudication_Selected_Annotators>
-        <Adjudication_Selected_Classes version="1.0">
-            <Class>NegCue</Class>
-        </Adjudication_Selected_Classes>
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
         <Adjudication_Others>
             <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
             <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
