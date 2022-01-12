@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <annotations textSource="Ars-Technica_20170629T055731.txt">
     <annotation>
         <mention id="EHOST_Instance_513" />
@@ -108,4 +108,3 @@
         </Adjudication_Others>
     </eHOST_Adjudication_Status>
 </annotations>
-

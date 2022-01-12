@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <annotations textSource="avn-org-au_20170316T033821.txt">
     <annotation>
         <mention id="EHOST_Instance_540" />
@@ -418,4 +418,3 @@
         </Adjudication_Others>
     </eHOST_Adjudication_Status>
 </annotations>
-

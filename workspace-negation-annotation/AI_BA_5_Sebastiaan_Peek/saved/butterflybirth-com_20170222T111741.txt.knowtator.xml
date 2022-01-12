@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <annotations textSource="butterflybirth-com_20170222T111741.txt">
     <annotation>
         <mention id="EHOST_Instance_610" />
@@ -388,4 +388,3 @@
         </Adjudication_Others>
     </eHOST_Adjudication_Status>
 </annotations>
-
