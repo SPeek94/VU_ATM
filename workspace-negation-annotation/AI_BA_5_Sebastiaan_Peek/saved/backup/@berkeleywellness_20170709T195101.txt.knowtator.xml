@@ -1,427 +1,437 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <annotations textSource="@berkeleywellness_20170709T195101.txt">
     <annotation>
-        <mention id="EHOST_Instance_338" />
+        <mention id="EHOST_Instance_1" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="378" end="381" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 09:50:35 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_338">
+    <classMention id="EHOST_Instance_1">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_339" />
+        <mention id="EHOST_Instance_2" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="458" end="461" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 09:50:40 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_339">
+    <classMention id="EHOST_Instance_2">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_340" />
+        <mention id="EHOST_Instance_3" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="673" end="675" />
         <spannedText>un</spannedText>
         <creationDate>Wed Jan 12 22:31:49 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_340">
+    <classMention id="EHOST_Instance_3">
         <mentionClass id="NegCue">un</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_341" />
+        <mention id="EHOST_Instance_4" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="1212" end="1215" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 09:51:36 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_341">
+    <classMention id="EHOST_Instance_4">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_342" />
+        <mention id="EHOST_Instance_5" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="1955" end="1960" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:32:01 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_342">
+    <classMention id="EHOST_Instance_5">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_343" />
+        <mention id="EHOST_Instance_6" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2016" end="2021" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:32:04 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_343">
+    <classMention id="EHOST_Instance_6">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_344" />
+        <mention id="EHOST_Instance_7" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2273" end="2276" />
         <spannedText>non</spannedText>
         <creationDate>Wed Jan 12 09:59:07 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_344">
+    <classMention id="EHOST_Instance_7">
         <mentionClass id="NegCue">non</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_345" />
+        <mention id="EHOST_Instance_8" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2429" end="2434" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:32:18 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_345">
+    <classMention id="EHOST_Instance_8">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_346" />
+        <mention id="EHOST_Instance_9" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2690" end="2695" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:32:26 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_346">
+    <classMention id="EHOST_Instance_9">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_347" />
+        <mention id="EHOST_Instance_10" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2815" end="2820" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:32:29 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_347">
+    <classMention id="EHOST_Instance_10">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_348" />
+        <mention id="EHOST_Instance_11" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="1660" end="1669" />
         <spannedText>no longer</spannedText>
         <creationDate>Wed Jan 12 10:05:18 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_348">
+    <classMention id="EHOST_Instance_11">
         <mentionClass id="NegCue">no longer</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_349" />
+        <mention id="EHOST_Instance_12" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2643" end="2652" />
         <spannedText>no longer</spannedText>
         <creationDate>Wed Jan 12 10:05:59 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_349">
+    <classMention id="EHOST_Instance_12">
         <mentionClass id="NegCue">no longer</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_350" />
+        <mention id="EHOST_Instance_13" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2982" end="2984" />
         <spannedText>no</spannedText>
         <creationDate>Wed Jan 12 10:06:12 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_350">
+    <classMention id="EHOST_Instance_13">
         <mentionClass id="NegCue">no</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_351" />
+        <mention id="EHOST_Instance_14" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="3022" end="3024" />
         <spannedText>no</spannedText>
         <creationDate>Wed Jan 12 10:06:18 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_351">
+    <classMention id="EHOST_Instance_14">
         <mentionClass id="NegCue">no</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_352" />
+        <mention id="EHOST_Instance_15" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="3048" end="3053" />
         <spannedText>never</spannedText>
         <creationDate>Wed Jan 12 10:06:21 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_352">
+    <classMention id="EHOST_Instance_15">
         <mentionClass id="NegCue">never</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_353" />
+        <mention id="EHOST_Instance_16" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="3250" end="3253" />
         <spannedText>mis</spannedText>
         <creationDate>Wed Jan 12 10:06:55 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_353">
+    <classMention id="EHOST_Instance_16">
         <mentionClass id="NegCue">mis</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_354" />
+        <mention id="EHOST_Instance_17" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="3477" end="3482" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:32:38 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_354">
+    <classMention id="EHOST_Instance_17">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_355" />
+        <mention id="EHOST_Instance_18" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="3556" end="3559" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 10:07:18 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_355">
+    <classMention id="EHOST_Instance_18">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_356" />
+        <mention id="EHOST_Instance_19" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="3595" end="3598" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 10:07:23 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_356">
+    <classMention id="EHOST_Instance_19">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_357" />
+        <mention id="EHOST_Instance_20" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="4130" end="4135" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:32:44 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_357">
+    <classMention id="EHOST_Instance_20">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_358" />
+        <mention id="EHOST_Instance_21" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="4424" end="4429" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:32:48 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_358">
+    <classMention id="EHOST_Instance_21">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_359" />
+        <mention id="EHOST_Instance_22" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="4521" end="4523" />
         <spannedText>no</spannedText>
         <creationDate>Wed Jan 12 10:08:18 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_359">
+    <classMention id="EHOST_Instance_22">
         <mentionClass id="NegCue">no</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_360" />
+        <mention id="EHOST_Instance_23" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="4651" end="4656" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:32:52 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_360">
+    <classMention id="EHOST_Instance_23">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_361" />
+        <mention id="EHOST_Instance_24" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="4685" end="4687" />
         <spannedText>Un</spannedText>
         <creationDate>Wed Jan 12 10:08:38 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_361">
+    <classMention id="EHOST_Instance_24">
         <mentionClass id="NegCue">Un</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_362" />
+        <mention id="EHOST_Instance_25" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="5219" end="5222" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 10:09:23 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_362">
+    <classMention id="EHOST_Instance_25">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_363" />
+        <mention id="EHOST_Instance_26" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="5415" end="5418" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 10:09:31 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_363">
+    <classMention id="EHOST_Instance_26">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_364" />
+        <mention id="EHOST_Instance_27" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="5451" end="5454" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 10:09:34 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_364">
+    <classMention id="EHOST_Instance_27">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_365" />
+        <mention id="EHOST_Instance_28" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="5829" end="5834" />
         <spannedText>never</spannedText>
         <creationDate>Wed Jan 12 10:09:53 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_365">
+    <classMention id="EHOST_Instance_28">
         <mentionClass id="NegCue">never</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_366" />
+        <mention id="EHOST_Instance_29" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="5884" end="5889" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:32:57 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_366">
+    <classMention id="EHOST_Instance_29">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_367" />
+        <mention id="EHOST_Instance_30" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="5909" end="5912" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 10:10:06 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_367">
+    <classMention id="EHOST_Instance_30">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_368" />
+        <mention id="EHOST_Instance_31" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="5974" end="5979" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:33:01 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_368">
+    <classMention id="EHOST_Instance_31">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_369" />
+        <mention id="EHOST_Instance_32" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="6081" end="6083" />
         <spannedText>un</spannedText>
         <creationDate>Wed Jan 12 10:10:22 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_369">
+    <classMention id="EHOST_Instance_32">
         <mentionClass id="NegCue">un</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_370" />
+        <mention id="EHOST_Instance_33" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="6328" end="6331" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 10:10:37 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_370">
+    <classMention id="EHOST_Instance_33">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_371" />
+        <mention id="EHOST_Instance_34" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7024" end="7027" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 10:11:12 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_371">
+    <classMention id="EHOST_Instance_34">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_372" />
+        <mention id="EHOST_Instance_35" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7194" end="7197" />
         <spannedText>non</spannedText>
         <creationDate>Wed Jan 12 10:11:28 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_372">
+    <classMention id="EHOST_Instance_35">
         <mentionClass id="NegCue">non</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_373" />
+        <mention id="EHOST_Instance_36" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7318" end="7320" />
         <spannedText>no</spannedText>
         <creationDate>Wed Jan 12 10:11:37 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_373">
+    <classMention id="EHOST_Instance_36">
         <mentionClass id="NegCue">no</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_374" />
+        <mention id="EHOST_Instance_37" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7321" end="7324" />
         <spannedText>non</spannedText>
         <creationDate>Wed Jan 12 10:11:39 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_374">
+    <classMention id="EHOST_Instance_37">
         <mentionClass id="NegCue">non</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_375" />
+        <mention id="EHOST_Instance_38" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7503" end="7508" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:33:11 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_375">
+    <classMention id="EHOST_Instance_38">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_376" />
+        <mention id="EHOST_Instance_39" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7583" end="7588" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:33:13 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_376">
+    <classMention id="EHOST_Instance_39">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_377" />
+        <mention id="EHOST_Instance_40" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7730" end="7735" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:33:20 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_377">
+    <classMention id="EHOST_Instance_40">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_378" />
+        <mention id="EHOST_Instance_41" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7783" end="7786" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 10:12:05 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_378">
+    <classMention id="EHOST_Instance_41">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_420" />
+        <mention id="EHOST_Instance_42" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="1705" end="1710" />
         <spannedText>nâ€™t</spannedText>
         <creationDate>Wed Jan 12 22:31:41 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_420">
+    <classMention id="EHOST_Instance_42">
         <mentionClass id="NegCue">nâ€™t</mentionClass>
     </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_43" />
+        <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
+        <span start="297" end="301" />
+        <spannedText>anti</spannedText>
+        <creationDate>Fri Jan 14 21:03:49 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_43">
+        <mentionClass id="NegCue">anti</mentionClass>
+    </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_421" />
+        <mention id="EHOST_Instance_44" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="378" end="381" />
         <spannedText>not</spannedText>
@@ -429,11 +439,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_421">
+    <classMention id="EHOST_Instance_44">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_422" />
+        <mention id="EHOST_Instance_45" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="458" end="461" />
         <spannedText>not</spannedText>
@@ -441,11 +451,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_422">
+    <classMention id="EHOST_Instance_45">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_423" />
+        <mention id="EHOST_Instance_46" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="673" end="685" />
         <spannedText>unvaccinated</spannedText>
@@ -453,11 +463,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_423">
+    <classMention id="EHOST_Instance_46">
         <mentionClass id="NegCue">unvaccinated</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_424" />
+        <mention id="EHOST_Instance_47" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="1212" end="1215" />
         <spannedText>not</spannedText>
@@ -465,11 +475,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_424">
+    <classMention id="EHOST_Instance_47">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_425" />
+        <mention id="EHOST_Instance_48" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="1953" end="1960" />
         <spannedText>canâ€™t</spannedText>
@@ -477,11 +487,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_425">
+    <classMention id="EHOST_Instance_48">
         <mentionClass id="NegCue">canâ€™t</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_426" />
+        <mention id="EHOST_Instance_49" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2014" end="2021" />
         <spannedText>canâ€™t</spannedText>
@@ -489,11 +499,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_426">
+    <classMention id="EHOST_Instance_49">
         <mentionClass id="NegCue">canâ€™t</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_427" />
+        <mention id="EHOST_Instance_50" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2273" end="2276" />
         <spannedText>non</spannedText>
@@ -501,11 +511,11 @@
         <processed>true</processed>
         <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_427">
+    <classMention id="EHOST_Instance_50">
         <mentionClass id="NegCue">non</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_428" />
+        <mention id="EHOST_Instance_51" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2424" end="2434" />
         <spannedText>couldnâ€™t</spannedText>
@@ -513,11 +523,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_428">
+    <classMention id="EHOST_Instance_51">
         <mentionClass id="NegCue">couldnâ€™t</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_429" />
+        <mention id="EHOST_Instance_52" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2688" end="2695" />
         <spannedText>donâ€™t</spannedText>
@@ -525,11 +535,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_429">
+    <classMention id="EHOST_Instance_52">
         <mentionClass id="NegCue">donâ€™t</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_430" />
+        <mention id="EHOST_Instance_53" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2813" end="2820" />
         <spannedText>donâ€™t</spannedText>
@@ -537,11 +547,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_430">
+    <classMention id="EHOST_Instance_53">
         <mentionClass id="NegCue">donâ€™t</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_431" />
+        <mention id="EHOST_Instance_54" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="1660" end="1669" />
         <spannedText>no longer</spannedText>
@@ -549,11 +559,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_431">
+    <classMention id="EHOST_Instance_54">
         <mentionClass id="NegCue">no longer</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_432" />
+        <mention id="EHOST_Instance_55" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2643" end="2652" />
         <spannedText>no longer</spannedText>
@@ -561,11 +571,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_432">
+    <classMention id="EHOST_Instance_55">
         <mentionClass id="NegCue">no longer</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_433" />
+        <mention id="EHOST_Instance_56" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2982" end="2984" />
         <spannedText>no</spannedText>
@@ -573,11 +583,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_433">
+    <classMention id="EHOST_Instance_56">
         <mentionClass id="NegCue">no</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_434" />
+        <mention id="EHOST_Instance_57" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="3022" end="3024" />
         <spannedText>no</spannedText>
@@ -585,11 +595,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_434">
+    <classMention id="EHOST_Instance_57">
         <mentionClass id="NegCue">no</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_435" />
+        <mention id="EHOST_Instance_58" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="3048" end="3053" />
         <spannedText>never</spannedText>
@@ -597,11 +607,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_435">
+    <classMention id="EHOST_Instance_58">
         <mentionClass id="NegCue">never</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_436" />
+        <mention id="EHOST_Instance_59" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="3250" end="3253" />
         <spannedText>mis</spannedText>
@@ -609,11 +619,11 @@
         <processed>true</processed>
         <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_436">
+    <classMention id="EHOST_Instance_59">
         <mentionClass id="NegCue">mis</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_437" />
+        <mention id="EHOST_Instance_60" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="3475" end="3482" />
         <spannedText>isnâ€™t</spannedText>
@@ -621,11 +631,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_437">
+    <classMention id="EHOST_Instance_60">
         <mentionClass id="NegCue">isnâ€™t</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_438" />
+        <mention id="EHOST_Instance_61" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="3556" end="3559" />
         <spannedText>not</spannedText>
@@ -633,11 +643,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_438">
+    <classMention id="EHOST_Instance_61">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_439" />
+        <mention id="EHOST_Instance_62" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="3595" end="3598" />
         <spannedText>not</spannedText>
@@ -645,11 +655,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_439">
+    <classMention id="EHOST_Instance_62">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_440" />
+        <mention id="EHOST_Instance_63" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="4126" end="4135" />
         <spannedText>doesnâ€™t</spannedText>
@@ -657,11 +667,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_440">
+    <classMention id="EHOST_Instance_63">
         <mentionClass id="NegCue">doesnâ€™t</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_441" />
+        <mention id="EHOST_Instance_64" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="4421" end="4429" />
         <spannedText>didnâ€™t</spannedText>
@@ -669,11 +679,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_441">
+    <classMention id="EHOST_Instance_64">
         <mentionClass id="NegCue">didnâ€™t</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_442" />
+        <mention id="EHOST_Instance_65" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="4521" end="4523" />
         <spannedText>no</spannedText>
@@ -681,11 +691,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_442">
+    <classMention id="EHOST_Instance_65">
         <mentionClass id="NegCue">no</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_443" />
+        <mention id="EHOST_Instance_66" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="4649" end="4656" />
         <spannedText>donâ€™t</spannedText>
@@ -693,11 +703,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_443">
+    <classMention id="EHOST_Instance_66">
         <mentionClass id="NegCue">donâ€™t</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_444" />
+        <mention id="EHOST_Instance_67" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="4685" end="4687" />
         <spannedText>Un</spannedText>
@@ -705,11 +715,11 @@
         <processed>true</processed>
         <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_444">
+    <classMention id="EHOST_Instance_67">
         <mentionClass id="NegCue">Un</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_445" />
+        <mention id="EHOST_Instance_68" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="5219" end="5222" />
         <spannedText>not</spannedText>
@@ -717,11 +727,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_445">
+    <classMention id="EHOST_Instance_68">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_446" />
+        <mention id="EHOST_Instance_69" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="5415" end="5418" />
         <spannedText>not</spannedText>
@@ -729,11 +739,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_446">
+    <classMention id="EHOST_Instance_69">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_447" />
+        <mention id="EHOST_Instance_70" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="5451" end="5454" />
         <spannedText>not</spannedText>
@@ -741,11 +751,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_447">
+    <classMention id="EHOST_Instance_70">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_448" />
+        <mention id="EHOST_Instance_71" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="5829" end="5834" />
         <spannedText>never</spannedText>
@@ -753,11 +763,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_448">
+    <classMention id="EHOST_Instance_71">
         <mentionClass id="NegCue">never</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_449" />
+        <mention id="EHOST_Instance_72" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="5882" end="5889" />
         <spannedText>donâ€™t</spannedText>
@@ -765,11 +775,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_449">
+    <classMention id="EHOST_Instance_72">
         <mentionClass id="NegCue">donâ€™t</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_450" />
+        <mention id="EHOST_Instance_73" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="5909" end="5912" />
         <spannedText>not</spannedText>
@@ -777,11 +787,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_450">
+    <classMention id="EHOST_Instance_73">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_451" />
+        <mention id="EHOST_Instance_74" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="5972" end="5979" />
         <spannedText>donâ€™t</spannedText>
@@ -789,11 +799,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_451">
+    <classMention id="EHOST_Instance_74">
         <mentionClass id="NegCue">donâ€™t</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_452" />
+        <mention id="EHOST_Instance_75" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="6081" end="6083" />
         <spannedText>un</spannedText>
@@ -801,11 +811,11 @@
         <processed>true</processed>
         <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_452">
+    <classMention id="EHOST_Instance_75">
         <mentionClass id="NegCue">un</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_453" />
+        <mention id="EHOST_Instance_76" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="6328" end="6331" />
         <spannedText>not</spannedText>
@@ -813,11 +823,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_453">
+    <classMention id="EHOST_Instance_76">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_454" />
+        <mention id="EHOST_Instance_77" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7024" end="7027" />
         <spannedText>not</spannedText>
@@ -825,11 +835,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_454">
+    <classMention id="EHOST_Instance_77">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_455" />
+        <mention id="EHOST_Instance_78" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7194" end="7197" />
         <spannedText>non</spannedText>
@@ -837,11 +847,11 @@
         <processed>true</processed>
         <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_455">
+    <classMention id="EHOST_Instance_78">
         <mentionClass id="NegCue">non</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_456" />
+        <mention id="EHOST_Instance_79" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7318" end="7320" />
         <spannedText>no</spannedText>
@@ -849,11 +859,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_456">
+    <classMention id="EHOST_Instance_79">
         <mentionClass id="NegCue">no</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_457" />
+        <mention id="EHOST_Instance_80" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7321" end="7324" />
         <spannedText>non</spannedText>
@@ -861,11 +871,11 @@
         <processed>true</processed>
         <AdjudicationStatus>NON_MATCHES</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_457">
+    <classMention id="EHOST_Instance_80">
         <mentionClass id="NegCue">non</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_458" />
+        <mention id="EHOST_Instance_81" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7499" end="7508" />
         <spannedText>doesnâ€™t</spannedText>
@@ -873,11 +883,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_458">
+    <classMention id="EHOST_Instance_81">
         <mentionClass id="NegCue">doesnâ€™t</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_459" />
+        <mention id="EHOST_Instance_82" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7581" end="7588" />
         <spannedText>donâ€™t</spannedText>
@@ -885,11 +895,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_459">
+    <classMention id="EHOST_Instance_82">
         <mentionClass id="NegCue">donâ€™t</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_460" />
+        <mention id="EHOST_Instance_83" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7728" end="7735" />
         <spannedText>canâ€™t</spannedText>
@@ -897,11 +907,11 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_460">
+    <classMention id="EHOST_Instance_83">
         <mentionClass id="NegCue">canâ€™t</mentionClass>
     </classMention>
     <adjudicating>
-        <mention id="EHOST_Instance_461" />
+        <mention id="EHOST_Instance_84" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="7783" end="7786" />
         <spannedText>not</spannedText>
@@ -909,7 +919,7 @@
         <processed>true</processed>
         <AdjudicationStatus>MATCHES_OK</AdjudicationStatus>
     </adjudicating>
-    <classMention id="EHOST_Instance_461">
+    <classMention id="EHOST_Instance_84">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <eHOST_Adjudication_Status version="1.0">
@@ -930,3 +940,4 @@
         </Adjudication_Others>
     </eHOST_Adjudication_Status>
 </annotations>
+
