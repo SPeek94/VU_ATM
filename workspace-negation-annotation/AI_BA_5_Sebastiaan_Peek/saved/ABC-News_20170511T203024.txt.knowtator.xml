@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <annotations textSource="ABC-News_20170511T203024.txt">
     <annotation>
-        <mention id="EHOST_Instance_503" />
+        <mention id="EHOST_Instance_344" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="1008" end="1010" />
         <spannedText>un</spannedText>
         <creationDate>Wed Jan 12 14:46:23 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_503">
+    <classMention id="EHOST_Instance_344">
         <mentionClass id="NegCue">un</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_504" />
+        <mention id="EHOST_Instance_345" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="2741" end="2743" />
         <spannedText>un</spannedText>
         <creationDate>Wed Jan 12 14:47:46 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_504">
+    <classMention id="EHOST_Instance_345">
         <mentionClass id="NegCue">un</mentionClass>
     </classMention>
     <eHOST_Adjudication_Status version="1.0">

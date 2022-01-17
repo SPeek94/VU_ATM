@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <annotations textSource="Church-Law-&amp;-Tax_20170707T234627.txt">
     <annotation>
-        <mention id="EHOST_Instance_666" />
+        <mention id="EHOST_Instance_513" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="48" end="50" />
         <spannedText>un</spannedText>
         <creationDate>Wed Jan 12 16:34:41 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_666">
+    <classMention id="EHOST_Instance_513">
         <mentionClass id="NegCue">un</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_667" />
+        <mention id="EHOST_Instance_514" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="99" end="102" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 16:34:42 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_667">
+    <classMention id="EHOST_Instance_514">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_668" />
+        <mention id="EHOST_Instance_515" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="277" end="280" />
         <spannedText>not</spannedText>
         <creationDate>Wed Jan 12 16:34:49 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_668">
+    <classMention id="EHOST_Instance_515">
         <mentionClass id="NegCue">not</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_669" />
+        <mention id="EHOST_Instance_516" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="315" end="317" />
         <spannedText>un</spannedText>
         <creationDate>Wed Jan 12 16:34:54 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_669">
+    <classMention id="EHOST_Instance_516">
         <mentionClass id="NegCue">un</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_670" />
+        <mention id="EHOST_Instance_517" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="1200" end="1202" />
         <spannedText>un</spannedText>
         <creationDate>Wed Jan 12 16:35:34 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_670">
+    <classMention id="EHOST_Instance_517">
         <mentionClass id="NegCue">un</mentionClass>
     </classMention>
     <annotation>
-        <mention id="EHOST_Instance_671" />
+        <mention id="EHOST_Instance_518" />
         <annotator id="eHOST_2010">Sebastiaan Peek</annotator>
         <span start="556" end="558" />
         <spannedText>no</spannedText>
         <creationDate>Wed Jan 12 22:29:23 CET 2022</creationDate>
     </annotation>
-    <classMention id="EHOST_Instance_671">
+    <classMention id="EHOST_Instance_518">
         <mentionClass id="NegCue">no</mentionClass>
     </classMention>
     <eHOST_Adjudication_Status version="1.0">
