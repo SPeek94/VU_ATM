@@ -15,7 +15,8 @@ df_train = pd.read_csv(
 
 nlp = spacy.load("en_core_web_sm")
 
-# nlp.tokenizer = Tokenizer(nlp.vocab, token_match=re.compile(r"(?<=Chapter )\d+.").match)
+# Somehow this fixes the `` issues
+nlp.tokenizer = Tokenizer(nlp.vocab)
 
 df_train.columns = ["Chapter", "Sentence_ID", "Token_ID", "Token", "Negation_cue"]
 
