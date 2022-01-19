@@ -14,38 +14,12 @@ df_train = pd.read_csv(
 
 
 nlp = spacy.load("en_core_web_sm")
+
 nlp.tokenizer = Tokenizer(nlp.vocab, token_match=re.compile(r"(?<=Chapter )\d+.").match)
 
 df_train.columns = ["Chapter", "Sentence_ID", "Token_ID", "Token", "Negation_cue"]
 
 df_train["Sentence_ID_unique"] = df_train.groupby(["Chapter", "Sentence_ID"]).ngroup()
-
-
-# nlp.tokenizer.token_match = re.compile(r"(?<=Chapter )\d+.").match
-# nlp.tokenizer.add_special_case("(?<=Chapter )\d+.", chapter_re)
-
-
-# def custom_tokenizer(nlp):
-#     return Tokenizer(nlp.vocab, token_match=chapter_re)
-
-
-# nlp.tokenizer = custom_tokenizer(nlp)
-
-
-# expression = r"(?<=Chapter )\d+."
-# for match in re.finditer(expression, doc.text):
-#     start, end = match.span()
-#     span = doc.char_span(start, end)
-#     # This is a Span object or None if match doesn't map to valid token sequence
-#     if span is not None:
-#         print("Found match:", span.text)
-
-tok_exp = nlp.tokenizer.explain(sentences_test[0])
-print(tok_exp)
-
-
-# list(filter(lambda k: "Chapter" in k, sentences))
-
 
 token_sent = []
 for i in range(len(set(df_train["Sentence_ID_unique"]))):
@@ -97,19 +71,7 @@ df_output_parser["next"] = df_output_parser.Token.shift(fill_value="None")
 df_output_parser["prev"] = df_output_parser.Token.shift(-1, fill_value="None")
 
 df_output_parser.head(6)  # shows results partly
-
-matcher = Matcher(vocab=nlp.vocab)
-
-chapter_ = [{"LOWER": {"REGEX": "(?<=Chapter )\d+."}}]
-
-matcher.add("chapter", patterns=[chapter_])
-
-
-matched_chapters = []
-for doc in token_sent:
-    result = matcher(doc, as_spans=True)
-    matched_chapters.append(result)
-
+df_output_parser
 
 """
 ngrams
