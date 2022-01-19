@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="ABC-News_20170511T203024.txt">
+    <annotation>
+        <mention id="EHOST_Instance_1" />
+        <annotator id="eHOST_2010">Joshua</annotator>
+        <span start="1008" end="1010" />
+        <spannedText>un</spannedText>
+        <creationDate>Mon Jan 17 23:51:14 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_1">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_2" />
+        <annotator id="eHOST_2010">Joshua</annotator>
+        <span start="2741" end="2743" />
+        <spannedText>un</spannedText>
+        <creationDate>Mon Jan 17 23:54:22 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_2">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

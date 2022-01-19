@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="Church-Law-&amp;-Tax_20170707T234627.txt">
+    <annotation>
+        <mention id="EHOST_Instance_14" />
+        <annotator id="eHOST_2010">Joshua</annotator>
+        <span start="48" end="50" />
+        <spannedText>un</spannedText>
+        <creationDate>Tue Jan 18 00:13:07 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_14">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_15" />
+        <annotator id="eHOST_2010">Joshua</annotator>
+        <span start="277" end="280" />
+        <spannedText>not</spannedText>
+        <creationDate>Tue Jan 18 00:14:56 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_15">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_16" />
+        <annotator id="eHOST_2010">Joshua</annotator>
+        <span start="315" end="317" />
+        <spannedText>un</spannedText>
+        <creationDate>Tue Jan 18 00:15:03 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_16">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_17" />
+        <annotator id="eHOST_2010">Joshua</annotator>
+        <span start="556" end="558" />
+        <spannedText>no</spannedText>
+        <creationDate>Tue Jan 18 00:15:10 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_17">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_18" />
+        <annotator id="eHOST_2010">Joshua</annotator>
+        <span start="725" end="732" />
+        <spannedText>without</spannedText>
+        <creationDate>Tue Jan 18 00:15:15 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_18">
+        <mentionClass id="NegCue">without</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_19" />
+        <annotator id="eHOST_2010">Joshua</annotator>
+        <span start="1200" end="1202" />
+        <spannedText>un</spannedText>
+        <creationDate>Tue Jan 18 00:15:40 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_19">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

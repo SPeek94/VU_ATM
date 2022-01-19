@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="Ars-Technica_20170629T055731.txt">
+    <annotation>
+        <mention id="EHOST_Instance_3" />
+        <annotator id="eHOST_2010">Joshua</annotator>
+        <span start="272" end="274" />
+        <spannedText>un</spannedText>
+        <creationDate>Mon Jan 17 23:55:51 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_3">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_4" />
+        <annotator id="eHOST_2010">Joshua</annotator>
+        <span start="723" end="726" />
+        <spannedText>not</spannedText>
+        <creationDate>Mon Jan 17 23:56:09 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_4">
+        <mentionClass id="NegCue">not</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_5" />
+        <annotator id="eHOST_2010">Joshua</annotator>
+        <span start="727" end="729" />
+        <spannedText>un</spannedText>
+        <creationDate>Mon Jan 17 23:56:13 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_5">
+        <mentionClass id="NegCue">un</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_6" />
+        <annotator id="eHOST_2010">Joshua</annotator>
+        <span start="1979" end="1981" />
+        <spannedText>no</spannedText>
+        <creationDate>Tue Jan 18 00:09:16 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_6">
+        <mentionClass id="NegCue">no</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_7" />
+        <annotator id="eHOST_2010">Joshua</annotator>
+        <span start="2318" end="2321" />
+        <spannedText>n’t</spannedText>
+        <creationDate>Tue Jan 18 00:09:43 CET 2022</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_7">
+        <mentionClass id="NegCue">n’t</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+
