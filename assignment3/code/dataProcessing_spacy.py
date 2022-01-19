@@ -15,15 +15,19 @@ df_train = pd.read_csv(
 
 nlp = spacy.load("en_core_web_sm")
 
-nlp.tokenizer = Tokenizer(nlp.vocab, token_match=re.compile(r"(?<=Chapter )\d+.").match)
+# nlp.tokenizer = Tokenizer(nlp.vocab, token_match=re.compile(r"(?<=Chapter )\d+.").match)
 
 df_train.columns = ["Chapter", "Sentence_ID", "Token_ID", "Token", "Negation_cue"]
 
 df_train["Sentence_ID_unique"] = df_train.groupby(["Chapter", "Sentence_ID"]).ngroup()
 
+regex = r"(Chapter \d+)(\.)"
+
 token_sent = []
 for i in range(len(set(df_train["Sentence_ID_unique"]))):
-    doc = nlp(" ".join(df_train[df_train.Sentence_ID_unique == i]["Token"]))
+    sent = " ".join(df_train[df_train.Sentence_ID_unique == i]["Token"])
+    fixed_sent = re.sub(regex, r"\1", sent)
+    doc = nlp(fixed_sent)
     token_sent.append(doc)
 
 
