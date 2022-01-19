@@ -13,6 +13,11 @@ nlp.tokenizer = Tokenizer(nlp.vocab, token_match=re.compile(r"(?<=Chapter )\d+."
 
 text = "Chapter 1. Mr. Sherlock Holmes"
 
+regex = r"(Chapter \d+)(\.)"
+
+re.sub(regex, r"\1", text)
+
+
 doc = nlp(text)
 
 
