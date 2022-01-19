@@ -1,8 +1,8 @@
 import spacy
 import pandas as pd
 import numpy as np
-
-nlp = spacy.load("en_core_web_sm")
+import re
+from spacy.tokenizer import Tokenizer
 
 df_train = pd.read_csv(
     r"D:\Studie\Business Analytics\Applied Text Mining\assignment3\train\SEM-2012-SharedTask-CD-SCO-training-simple.v2.txt",
@@ -12,9 +12,40 @@ df_train = pd.read_csv(
     index_col=False,
 )
 
+
+nlp = spacy.load("en_core_web_sm")
+nlp.tokenizer = Tokenizer(nlp.vocab, token_match=re.compile(r"(?<=Chapter )\d+.").match)
+
 df_train.columns = ["Chapter", "Sentence_ID", "Token_ID", "Token", "Negation_cue"]
 
 df_train["Sentence_ID_unique"] = df_train.groupby(["Chapter", "Sentence_ID"]).ngroup()
+
+
+# nlp.tokenizer.token_match = re.compile(r"(?<=Chapter )\d+.").match
+# nlp.tokenizer.add_special_case("(?<=Chapter )\d+.", chapter_re)
+
+
+# def custom_tokenizer(nlp):
+#     return Tokenizer(nlp.vocab, token_match=chapter_re)
+
+
+# nlp.tokenizer = custom_tokenizer(nlp)
+
+
+# expression = r"(?<=Chapter )\d+."
+# for match in re.finditer(expression, doc.text):
+#     start, end = match.span()
+#     span = doc.char_span(start, end)
+#     # This is a Span object or None if match doesn't map to valid token sequence
+#     if span is not None:
+#         print("Found match:", span.text)
+
+tok_exp = nlp.tokenizer.explain(sentences_test[0])
+print(tok_exp)
+
+
+# list(filter(lambda k: "Chapter" in k, sentences))
+
 
 token_sent = []
 for i in range(len(set(df_train["Sentence_ID_unique"]))):
@@ -29,6 +60,7 @@ for doc in token_sent:  # for each tokenized/processed sentence in the list
         sent
     ) in doc.sents:  # take each sentence, since we only have 1 sentence it loops 1 time
         for i, word in enumerate(sent):  # go trough each token/word
+
             if word.head == word:  # reset counter
                 head_idx = 0
             else:  # otherwise calculate idx
@@ -37,29 +69,46 @@ for doc in token_sent:  # for each tokenized/processed sentence in the list
                 {}
             )  # make dictionary and fill it values, as showed in the report appendix II
             dict_parser_output["idx_sent"] = sent_idx
-            dict_parser_output["Token#"] = i + 1
-            dict_parser_output["Word"] = word.text
+            dict_parser_output["Token_ID"] = i + 1
+            dict_parser_output["Token"] = word.text
             dict_parser_output["Lemma"] = word.lemma_
             dict_parser_output["POS"] = word.pos_
             dict_parser_output["POS_TAG"] = word.tag_
-            dict_parser_output["Dependency Head"] = head_idx
-            dict_parser_output["Dependency Label"] = word.dep_
+            dict_parser_output["Dependency_Head"] = head_idx
+            dict_parser_output["Dependency_Label"] = word.dep_
             listOfDicts.append(dict_parser_output)  # append to list
     sent_idx += 1
 
 columns_ = [
-    "Token#",
-    "Word",
+    "Token_ID",
+    "Token",
     "Lemma",
     "POS",
-    "POS_TAG" "Dependency Head",
-    "Dependency Label",
+    "POS_TAG",
+    "Dependency_Head",
+    "Dependency_Label",
     "idx_sent",
 ]
 
 
 df_output_parser = pd.DataFrame(listOfDicts, columns=columns_)
-df_output_parser.head()  # shows results partly
+
+df_output_parser["next"] = df_output_parser.Token.shift(fill_value="None")
+df_output_parser["prev"] = df_output_parser.Token.shift(-1, fill_value="None")
+
+df_output_parser.head(6)  # shows results partly
+
+matcher = Matcher(vocab=nlp.vocab)
+
+chapter_ = [{"LOWER": {"REGEX": "(?<=Chapter )\d+."}}]
+
+matcher.add("chapter", patterns=[chapter_])
+
+
+matched_chapters = []
+for doc in token_sent:
+    result = matcher(doc, as_spans=True)
+    matched_chapters.append(result)
 
 
 """
