@@ -27,14 +27,15 @@ regex = r"(Chapter \d+)(\.)"
 token_sent = []
 for i in range(len(set(df_train["Sentence_ID_unique"]))):
     sent = " ".join(df_train[df_train.Sentence_ID_unique == i]["Token"])
+    cue = list(df_train[df_train.Sentence_ID_unique == i]["Negation_cue"])
     fixed_sent = re.sub(regex, r"\1", sent)
     doc = nlp(fixed_sent)
-    token_sent.append(doc)
+    token_sent.append((doc, cue))
 
 
 listOfDicts = []
 sent_idx = 0
-for doc in token_sent:  # for each tokenized/processed sentence in the list
+for doc, cues in token_sent:  # for each tokenized/processed sentence in the list
     for (
         sent
     ) in doc.sents:  # take each sentence, since we only have 1 sentence it loops 1 time
@@ -48,13 +49,14 @@ for doc in token_sent:  # for each tokenized/processed sentence in the list
                 {}
             )  # make dictionary and fill it values, as showed in the report appendix II
             dict_parser_output["idx_sent"] = sent_idx
-            dict_parser_output["Token_ID"] = i + 1
+            dict_parser_output["Token_ID"] = i
             dict_parser_output["Token"] = word.text
             dict_parser_output["Lemma"] = word.lemma_
             dict_parser_output["POS"] = word.pos_
             dict_parser_output["POS_TAG"] = word.tag_
             dict_parser_output["Dependency_Head"] = head_idx
             dict_parser_output["Dependency_Label"] = word.dep_
+            # dict_parser_output["Negation_cue"] = cues[i]
             listOfDicts.append(dict_parser_output)  # append to list
     sent_idx += 1
 
@@ -67,6 +69,7 @@ columns_ = [
     "Dependency_Head",
     "Dependency_Label",
     "idx_sent",
+    # "Negation_cue",
 ]
 
 
@@ -74,9 +77,22 @@ df_output_parser = pd.DataFrame(listOfDicts, columns=columns_)
 
 df_output_parser["next"] = df_output_parser.Token.shift(fill_value="None")
 df_output_parser["prev"] = df_output_parser.Token.shift(-1, fill_value="None")
+# df_output_parser["Negation_cue"] = df_train["Negation_cue"]
 
-df_output_parser.head(6)  # shows results partly
-df_output_parser
+print(df_output_parser.head(6))  # shows results partly
+
+# keys = ["Token", "Token_ID", "Negation_cue"]
+
+
+# df_train_check = df_train[keys]
+# df_output_parser_check = df_output_parser[keys]
+
+# df_train_check.compare(df_output_parser_check)
+
+
+# def check_correct_negCue_labels(df_gold, df_parsed):
+#     pass
+
 
 """
 ngrams

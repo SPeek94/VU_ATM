@@ -31,8 +31,14 @@ sent_1 = list(df_train[df_train["Sentence_ID_unique"] == 0]["Token"])
 sent_2 = list(df_train[df_train["Sentence_ID_unique"] == 1]["Token"])
 
 sent_1
-sent_2
+# sent_2
 
 nlp = spacy.load("en_core_web_sm")
 
-doc = Doc(nlp.vocab, words=df_train["Token"])
+
+doc = Doc(nlp.vocab, words=sent_1)
+print(doc.text)
+print([(t.text, t.text_with_ws, t.whitespace_) for t in doc])
+print([(t.text, t.text_with_ws, t.whitespace_) for t in doc])
+
+print([(t.text, t.pos_, t.lemma_) for t in doc])
