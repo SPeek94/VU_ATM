@@ -155,7 +155,8 @@ cython_debug/
 # files
 *.pdf
 *.zip
-
+*300.bin
+*300.bin.gz
 # eHost
 ehost-bp-1/
 ATM_assignment1/
@@ -165,3 +166,13 @@ readings/
 corpus/
 
 # XML files
+
+
+
+
+#
+requirements.txt 
+word2vec_model_vectors1
+word2vec_model_vectors2
+word2vec_model1
+word2vec_model2

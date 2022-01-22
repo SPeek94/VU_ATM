@@ -77,25 +77,16 @@ df_output_parser = pd.DataFrame(listOfDicts, columns=columns_)
 
 df_output_parser["next"] = df_output_parser.Token.shift(fill_value="None")
 df_output_parser["prev"] = df_output_parser.Token.shift(-1, fill_value="None")
-# df_output_parser["Negation_cue"] = df_train["Negation_cue"]
-
-print(df_output_parser.head(6))  # shows results partly
-
-# keys = ["Token", "Token_ID", "Negation_cue"]
+df_output_parser["Negation_cue"] = df_train["Negation_cue"]
 
 
-# df_train_check = df_train[keys]
-# df_output_parser_check = df_output_parser[keys]
 
-# df_train_check.compare(df_output_parser_check)
-
-
-# def check_correct_negCue_labels(df_gold, df_parsed):
-#     pass
+# df_output_parser.to_csv(
+#     r"D:\Studie\Business Analytics\Applied Text Mining\assignment3\train\pre_processed_train.csv",
+#     index=False,
+# )
 
 
-"""
-ngrams
-previous/next token/pos
-affixes
-"""
+# print(df_output_parser.head(6))  # shows results partly
+
+
