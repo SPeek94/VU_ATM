@@ -5,7 +5,7 @@ import re
 from spacy.tokenizer import Tokenizer
 
 df_train = pd.read_csv(
-    r"D:\Studie\Business Analytics\Applied Text Mining\assignment3\train\SEM-2012-SharedTask-CD-SCO-training-simple.v2.txt",
+    r"D:\Studie\Business Analytics\Applied Text Mining\assignment3\test\SEM-2012-SharedTask-CD-SCO-test-cardboard.txt",
     header=None,
     encoding="utf-8",
     sep="\t",
@@ -80,13 +80,10 @@ df_output_parser["prev"] = df_output_parser.Token.shift(-1, fill_value="None")
 df_output_parser["Negation_cue"] = df_train["Negation_cue"]
 
 
-
-# df_output_parser.to_csv(
-#     r"D:\Studie\Business Analytics\Applied Text Mining\assignment3\train\pre_processed_train.csv",
-#     index=False,
-# )
+df_output_parser.to_csv(
+    r"D:\Studie\Business Analytics\Applied Text Mining\assignment3\test\pre_processed_cardboard.csv",
+    index=False,
+)
 
 
 # print(df_output_parser.head(6))  # shows results partly
-
-
