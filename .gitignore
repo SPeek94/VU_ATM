@@ -171,6 +171,7 @@ corpus/
 
 
 #
+*vectorized.csv
 requirements.txt 
 word2vec_model_vectors1
 word2vec_model_vectors2
