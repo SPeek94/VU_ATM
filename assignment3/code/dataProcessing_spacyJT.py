@@ -86,6 +86,7 @@ def create_parsed_df(token_sentences):
                 dict_parser_output["Dependency_Head"] = head_idx
                 dict_parser_output["Dependency_Label"] = word.dep_
                 dict_parser_output["Negation_cue"] = cues[i]
+                dict_parser_output["Token_vector"] = word.vector
 
                 listOfDicts.append(dict_parser_output)  # append to list
         sent_idx += 1
@@ -100,11 +101,18 @@ def create_parsed_df(token_sentences):
         "Dependency_Label",
         "idx_sent",
         "Negation_cue",
+        "Token_vector",
     ]
 
     df_output_parser = pd.DataFrame(listOfDicts, columns=columns_)
-    df_output_parser["next"] = df_output_parser.Token.shift(fill_value="Pad")
-    df_output_parser["prev"] = df_output_parser.Token.shift(-1, fill_value="Pad")
+    df_output_parser["next_token"] = df_output_parser.Token.shift(fill_value="Pad")
+    df_output_parser["next_token_vector"] = df_output_parser.Token_vector.shift(
+        fill_value="Pad"
+    )
+    df_output_parser["prev_token"] = df_output_parser.Token.shift(-1, fill_value="Pad")
+    df_output_parser["prev_token"] = df_output_parser.Token_vector.shift(
+        -1, fill_value="Pad"
+    )
     df_output_parser["trigram"] = (
         df_output_parser.Token.shift()
         + " "
