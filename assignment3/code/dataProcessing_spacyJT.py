@@ -5,7 +5,7 @@ import re
 from spacy.tokenizer import Tokenizer
 
 
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_lg")
 print("imports complete")
 
 
@@ -105,13 +105,13 @@ def create_parsed_df(token_sentences):
     ]
 
     df_output_parser = pd.DataFrame(listOfDicts, columns=columns_)
-    df_output_parser["next_token"] = df_output_parser.Token.shift(fill_value="Pad")
+    df_output_parser["next_token"] = df_output_parser.Token.shift(fill_value="None")
     df_output_parser["next_token_vector"] = df_output_parser.Token_vector.shift(
-        fill_value="Pad"
+        fill_value="None"
     )
-    df_output_parser["prev_token"] = df_output_parser.Token.shift(-1, fill_value="Pad")
-    df_output_parser["prev_token"] = df_output_parser.Token_vector.shift(
-        -1, fill_value="Pad"
+    df_output_parser["prev_token"] = df_output_parser.Token.shift(-1, fill_value="None")
+    df_output_parser["prev_token_vector"] = df_output_parser.Token_vector.shift(
+        -1, fill_value="None"
     )
     df_output_parser["trigram"] = (
         df_output_parser.Token.shift()
@@ -125,36 +125,46 @@ def create_parsed_df(token_sentences):
         len(df_output_parser) - 1, "trigram"
     ] = df_output_parser.trigram[len(df_output_parser) - 2]
 
-    df_output_parser["trigram_list"] = df_output_parser.apply(
-        lambda x: [x.next, x.Token, x.prev], axis=1
+    df_output_parser["trigram_list_tokens"] = df_output_parser.apply(
+        lambda x: [x.next_token, x.Token, x.prev_token], axis=1
     )
 
-    df_output_parser["trigram_list"].iloc[0] = df_output_parser["trigram_list"].iloc[1]
-    df_output_parser["trigram_list"].iloc[-1] = df_output_parser["trigram_list"].iloc[
-        -2
-    ]
-    # df_output_parser.loc[0, "trigram_list"] = df_output_parser.trigram_list[1]
-    # df_output_parser.loc[
-    #     len(df_output_parser) - 1, "trigram_list"
-    # ] = df_output_parser.trigram_list[len(df_output_parser) - 2]
+    df_output_parser["trigram_list_tokens"].iloc[0] = df_output_parser[
+        "trigram_list_tokens"
+    ].iloc[1]
+    df_output_parser["trigram_list_tokens"].iloc[-1] = df_output_parser[
+        "trigram_list_tokens"
+    ].iloc[-2]
+
+    df_output_parser["trigram_list_vectors"] = df_output_parser.apply(
+        lambda x: [x.next_token_vector, x.Token_vector, x.prev_token_vector], axis=1
+    )
+
+    df_output_parser["trigram_list_vectors"].iloc[0] = df_output_parser[
+        "trigram_list_vectors"
+    ].iloc[1]
+    df_output_parser["trigram_list_vectors"].iloc[-1] = df_output_parser[
+        "trigram_list_vectors"
+    ].iloc[-2]
 
     df_output_parser["prev_bigram"] = (
         df_output_parser.Token.shift() + " " + df_output_parser.Token
     )
     df_output_parser.loc[0, "prev_bigram"] = df_output_parser.prev_bigram[1]
 
-    df_output_parser["prev_bigram_list"] = df_output_parser.apply(
-        lambda x: [x.next, x.Token], axis=1
+    df_output_parser["prev_bigram_list_tokens"] = df_output_parser.apply(
+        lambda x: [x.next_token, x.Token], axis=1
     )
-    df_output_parser["prev_bigram_list"].iloc[0] = df_output_parser[
-        "prev_bigram_list"
+    df_output_parser["prev_bigram_list_tokens"].iloc[0] = df_output_parser[
+        "prev_bigram_list_tokens"
     ].iloc[1]
 
-    # df_output_parser["prev_bigram_list"] = [
-    #     df_output_parser.Token.shift(),
-    #     df_output_parser.Token,
-    # ]
-    # df_output_parser.loc[0, "prev_bigram_list"] = df_output_parser.prev_bigram_list[1]
+    df_output_parser["prev_bigram_list_vectors"] = df_output_parser.apply(
+        lambda x: [x.next_token_vector, x.Token], axis=1
+    )
+    df_output_parser["prev_bigram_list_vectors"].iloc[0] = df_output_parser[
+        "prev_bigram_list_vectors"
+    ].iloc[1]
 
     df_output_parser["next_bigram"] = (
         df_output_parser.Token + " " + df_output_parser.Token.shift(-1)
@@ -163,20 +173,19 @@ def create_parsed_df(token_sentences):
         len(df_output_parser) - 1, "next_bigram"
     ] = df_output_parser.next_bigram[len(df_output_parser) - 2]
 
-    df_output_parser["next_bigram_list"] = df_output_parser.apply(
-        lambda x: [x.Token, x.prev], axis=1
+    df_output_parser["next_bigram_list_tokens"] = df_output_parser.apply(
+        lambda x: [x.Token, x.prev_token], axis=1
     )
-    df_output_parser["next_bigram_list"].iloc[-1] = df_output_parser[
-        "next_bigram_list"
+    df_output_parser["next_bigram_list_tokens"].iloc[-1] = df_output_parser[
+        "next_bigram_list_tokens"
     ].iloc[-2]
 
-    # df_output_parser["next_bigram_list"] = [
-    #     df_output_parser.Token,
-    #     df_output_parser.Token.shift(-1),
-    # ]
-    # df_output_parser.loc[
-    #     len(df_output_parser) - 1, "next_bigram_list"
-    # ] = df_output_parser.next_bigram_list[len(df_output_parser) - 2]
+    df_output_parser["next_bigram_list_vectors"] = df_output_parser.apply(
+        lambda x: [x.Token, x.prev_token_vector], axis=1
+    )
+    df_output_parser["next_bigram_list_vectors"].iloc[-1] = df_output_parser[
+        "next_bigram_list_vectors"
+    ].iloc[-2]
     return df_output_parser
 
 
@@ -235,13 +244,13 @@ def main(unprocessed_file, wordcolumn="Token", POScolumn="POS"):
         parsed_dataframe, wordcolumn="Token", POScolumn="POS"
     )
 
-    outfile = unprocessed_file.replace(".txt", ".Preprocessed.csv")
-    Features_df.to_csv(outfile)
+    outfile = unprocessed_file.replace(".txt", ".Preprocessed.pickle")
+    Features_df.to_pickle(outfile)
     print("PreProcessed File Created")
 
     return Features_df
 
 
 df_features = main(
-    r"D:\Studie\Business Analytics\Applied Text Mining\assignment3\Data\test\SEM-2012-SharedTask-CD-SCO-test-cardboard.txt"
+    r"D:\Studie\Business Analytics\Applied Text Mining\assignment3\Data\test\SEM-2012-SharedTask-CD-SCO-test-circle.txt"
 )
