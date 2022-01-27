@@ -32,7 +32,8 @@ def LoadAnnotatedData(inputfile):
     df_unprocessed["Sentence_ID_unique"] = df_unprocessed.groupby(
         ["Chapter", "Sentence_ID"]
     ).ngroup()
-    regex = r"(Chapter \d+)(\.)"
+    regex_chapter = r"(Chapter \d+)(\.)"
+    regex_chapter_start_with_int = r"^(\d+)(\.)"
     df_unprocessed["Token"] = df_unprocessed["Token"].replace("``", '"')
     df_unprocessed["Token"] = df_unprocessed["Token"].replace("`", '"')
     df_unprocessed["Token"] = df_unprocessed["Token"].replace("'", '"')
@@ -46,7 +47,8 @@ def LoadAnnotatedData(inputfile):
         cue = list(
             df_unprocessed[df_unprocessed.Sentence_ID_unique == i]["Negation_cue"]
         )
-        fixed_sent = re.sub(regex, r"\1", sent)
+        fixed_sent = re.sub(regex_chapter, r"\1", sent)
+        fixed_sent = re.sub(regex_chapter_start_with_int, r"\1", fixed_sent)
         doc = nlp(fixed_sent)
 
         token_sent.append((doc, cue))
