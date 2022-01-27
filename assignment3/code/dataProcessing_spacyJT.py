@@ -104,15 +104,26 @@ def create_parsed_df(token_sentences):
         "Token_vector",
     ]
 
+    # Create dataframe from the list of dicts
     df_output_parser = pd.DataFrame(listOfDicts, columns=columns_)
-    df_output_parser["next_token"] = df_output_parser.Token.shift(fill_value="None")
+
+    # Columns for the next token and including vector
+    df_output_parser["next_token"] = df_output_parser.Token.shift(-1, fill_value="None")
     df_output_parser["next_token_vector"] = df_output_parser.Token_vector.shift(
-        fill_value="None"
-    )
-    df_output_parser["prev_token"] = df_output_parser.Token.shift(-1, fill_value="None")
-    df_output_parser["prev_token_vector"] = df_output_parser.Token_vector.shift(
         -1, fill_value="None"
     )
+    # Change "None" --> array of zeros shape (300,)
+    df_output_parser["next_token_vector"].iloc[-1] = np.zeros((300,))
+
+    # Columns for the previous token and including vector
+    df_output_parser["prev_token"] = df_output_parser.Token.shift(fill_value="None")
+    df_output_parser["prev_token_vector"] = df_output_parser.Token_vector.shift(
+        fill_value="None"
+    )
+    # Change "None" --> array of zeros shape (300,)
+    df_output_parser["prev_token_vector"].iloc[0] = np.zeros((300,))
+
+    # Creating string based trigrams
     df_output_parser["trigram"] = (
         df_output_parser.Token.shift()
         + " "
@@ -120,13 +131,18 @@ def create_parsed_df(token_sentences):
         + " "
         + df_output_parser.Token.shift(-1)
     )
-    df_output_parser.loc[0, "trigram"] = df_output_parser.trigram[1]
+    df_output_parser.loc[0, "trigram"] = df_output_parser.trigram[
+        1
+    ]  # For first trigram take the second trigram and copy it (because first token doesn't have a prev token)
     df_output_parser.loc[
         len(df_output_parser) - 1, "trigram"
-    ] = df_output_parser.trigram[len(df_output_parser) - 2]
+    ] = df_output_parser.trigram[
+        len(df_output_parser) - 2
+    ]  # the same as for the first token, the last token doesn't have a next token so copy previous trigram
 
+    # Create list of the tokens inside a trigram
     df_output_parser["trigram_list_tokens"] = df_output_parser.apply(
-        lambda x: [x.next_token, x.Token, x.prev_token], axis=1
+        lambda x: [x.prev_token, x.Token, x.next_token], axis=1
     )
 
     df_output_parser["trigram_list_tokens"].iloc[0] = df_output_parser[
@@ -136,8 +152,9 @@ def create_parsed_df(token_sentences):
         "trigram_list_tokens"
     ].iloc[-2]
 
+    # Create list of the vectors of the corresponding tokens inside a trigram
     df_output_parser["trigram_list_vectors"] = df_output_parser.apply(
-        lambda x: [x.next_token_vector, x.Token_vector, x.prev_token_vector], axis=1
+        lambda x: [x.prev_token_vector, x.Token_vector, x.next_token_vector], axis=1
     )
 
     df_output_parser["trigram_list_vectors"].iloc[0] = df_output_parser[
@@ -147,25 +164,29 @@ def create_parsed_df(token_sentences):
         "trigram_list_vectors"
     ].iloc[-2]
 
+    # Create string based bigram based on current token and previous token
     df_output_parser["prev_bigram"] = (
         df_output_parser.Token.shift() + " " + df_output_parser.Token
     )
     df_output_parser.loc[0, "prev_bigram"] = df_output_parser.prev_bigram[1]
 
+    # Create list of tokens bigram based on current token and previous token
     df_output_parser["prev_bigram_list_tokens"] = df_output_parser.apply(
-        lambda x: [x.next_token, x.Token], axis=1
+        lambda x: [x.prev_token, x.Token], axis=1
     )
     df_output_parser["prev_bigram_list_tokens"].iloc[0] = df_output_parser[
         "prev_bigram_list_tokens"
     ].iloc[1]
 
+    # Create list of vectors of the corresponding tokens bigram based on current token and previous token
     df_output_parser["prev_bigram_list_vectors"] = df_output_parser.apply(
-        lambda x: [x.next_token_vector, x.Token], axis=1
+        lambda x: [x.prev_token_vector, x.Token_vector], axis=1
     )
     df_output_parser["prev_bigram_list_vectors"].iloc[0] = df_output_parser[
         "prev_bigram_list_vectors"
     ].iloc[1]
 
+    # Create string based bigram based on current token and next token
     df_output_parser["next_bigram"] = (
         df_output_parser.Token + " " + df_output_parser.Token.shift(-1)
     )
@@ -173,15 +194,17 @@ def create_parsed_df(token_sentences):
         len(df_output_parser) - 1, "next_bigram"
     ] = df_output_parser.next_bigram[len(df_output_parser) - 2]
 
+    # Create list of tokens bigram based on current token and next token
     df_output_parser["next_bigram_list_tokens"] = df_output_parser.apply(
-        lambda x: [x.Token, x.prev_token], axis=1
+        lambda x: [x.Token, x.next_token], axis=1
     )
     df_output_parser["next_bigram_list_tokens"].iloc[-1] = df_output_parser[
         "next_bigram_list_tokens"
     ].iloc[-2]
 
+    # Create list of vectors of the corresponding tokens bigram based on current token and next token
     df_output_parser["next_bigram_list_vectors"] = df_output_parser.apply(
-        lambda x: [x.Token, x.prev_token_vector], axis=1
+        lambda x: [x.Token_vector, x.next_token_vector], axis=1
     )
     df_output_parser["next_bigram_list_vectors"].iloc[-1] = df_output_parser[
         "next_bigram_list_vectors"
@@ -252,5 +275,5 @@ def main(unprocessed_file, wordcolumn="Token", POScolumn="POS"):
 
 
 df_features = main(
-    r"D:\Studie\Business Analytics\Applied Text Mining\assignment3\Data\test\SEM-2012-SharedTask-CD-SCO-test-circle.txt"
+    r"D:\Studie\Business Analytics\Applied Text Mining\assignment3\Data\test\SEM-2012-SharedTask-CD-SCO-test-cardboard.txt"
 )
