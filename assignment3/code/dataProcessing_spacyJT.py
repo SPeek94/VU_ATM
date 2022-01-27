@@ -113,7 +113,7 @@ def create_parsed_df(token_sentences):
         -1, fill_value="None"
     )
     # Change "None" --> array of zeros shape (300,)
-    df_output_parser["next_token_vector"].iloc[-1] = np.zeros((300,))
+    df_output_parser["next_token_vector"].iloc[-1] = np.zeros(300)
 
     # Columns for the previous token and including vector
     df_output_parser["prev_token"] = df_output_parser.Token.shift(fill_value="None")
@@ -121,7 +121,7 @@ def create_parsed_df(token_sentences):
         fill_value="None"
     )
     # Change "None" --> array of zeros shape (300,)
-    df_output_parser["prev_token_vector"].iloc[0] = np.zeros((300,))
+    df_output_parser["prev_token_vector"].iloc[0] = np.zeros(300)
 
     # Creating string based trigrams
     df_output_parser["trigram"] = (
@@ -274,6 +274,13 @@ def main(unprocessed_file, wordcolumn="Token", POScolumn="POS"):
     return Features_df
 
 
-df_features = main(
-    r"D:\Studie\Business Analytics\Applied Text Mining\assignment3\Data\test\SEM-2012-SharedTask-CD-SCO-test-cardboard.txt"
-)
+list_of_files = [
+    "tmtrain.txt",
+    "tmdev.txt",
+    "test\\SEM-2012-SharedTask-CD-SCO-test-cardboard.txt",
+    "test\\SEM-2012-SharedTask-CD-SCO-test-circle.txt",
+]
+for file in list_of_files:
+    main(
+        f"D:\\Studie\\Business Analytics\\Applied Text Mining\\assignment3\\Data\\{file}"
+    )
