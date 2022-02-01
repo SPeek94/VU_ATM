@@ -10,4 +10,4 @@ with open(
 
 scores, best_scores, best_params = hyperOpt_results
 
-best_params["fold \5"]
+best_params["fold 5"]

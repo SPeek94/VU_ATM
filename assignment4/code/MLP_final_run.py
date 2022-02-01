@@ -177,3 +177,31 @@ history = model.fit(
 
 loss_dev, F1_score_dev = model.evaluate(x_dev, y_dev)
 loss_test, F1_score_test = model.evaluate(x_test, y_test)
+
+
+predictions_dev = model.predict(x_dev).round()
+pred_labels_dev = enc_labels.inverse_transform(predictions_dev).ravel()
+
+
+predictions_test = model.predict(x_test).round()
+pred_labels_test = enc_labels.inverse_transform(predictions_test).ravel()
+
+col_to_keep = ["Token", "trigram", "idx_sent", "HECT", "HECA", "Negation_cue"]
+
+
+df_results_test = pd.concat(
+    [df_test_circle[col_to_keep], df_test_cardboard[col_to_keep]], ignore_index=True
+)
+df_results_test["pred_MLP"] = pred_labels_test
+
+df_results_dev = df_dev[col_to_keep]
+df_results_dev["pred_MLP"] = pred_labels_dev
+
+df_results_test.to_csv(
+    r"D:\Studie\Business Analytics\Applied Text Mining\assignment5\resuts\MLP_test_result.csv",
+    index=False,
+)
+df_results_dev.to_csv(
+    r"D:\Studie\Business Analytics\Applied Text Mining\assignment5\resuts\MLP_dev_result.csv",
+    index=False,
+)
