@@ -3,6 +3,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,python
 
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -209,9 +210,9 @@ $RECYCLE.BIN/
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 *.pdf
 *.zip
-.virtual_documents/
+virtual_documents/
 *.docx
 ehost-bp-1/
 workspace-negation-annotation/
 literature/
-other/remove_annotations.py
+other/
