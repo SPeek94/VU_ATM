@@ -8,14 +8,14 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
 from sklearn.preprocessing import OneHotEncoder
 from functools import reduce
-from keras.callbacks import Callback, ModelCheckpoint
-from keras.models import Sequential, load_model
-from keras.layers import Dense, Dropout, Activation
-from keras.optimizers import SGD
-from keras.wrappers.scikit_learn import KerasClassifier
-from keras.utils import to_categorical
-import keras.backend as K
-import keras
+from tensorflow.keras.callbacks import Callback, ModelCheckpoint
+from tensorflow.keras.models import Sequential, load_model
+from tensorflow.keras.layers import Dense, Dropout, Activation
+from tensorflow.keras.optimizers import SGD
+from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
+from tensorflow.keras.utils import to_categorical
+import tensorflow.keras.backend as K
+import tensorflow.keras
 import pickle
 
 data_folder = Path("D:/Studie/Business Analytics/Applied Text Mining/assignment3/Data")
@@ -243,10 +243,12 @@ def feature_ablation(df_train, df_val, all_features):
     return order_of_removal, best_scores
 
 
-order_of_removal, best_scores = feature_ablation(df_train, df_val, all_features)
+order_of_removal, best_scores = feature_ablation(
+    df_train, df_val, ["POS_TAG", "next_bigram_list_vectors"]
+)
 
-with open("order_of_removal.pickle", "wb") as handle:
-    pickle.dump(order_of_removal, handle, protocol=pickle.HIGHEST_PROTOCOL)
+# with open("order_of_removal.pickle", "wb") as handle:
+#     pickle.dump(order_of_removal, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
-with open("best_scores.pickle", "wb") as handle:
-    pickle.dump(best_scores, handle, protocol=pickle.HIGHEST_PROTOCOL)
+# with open("best_scores.pickle", "wb") as handle:
+#     pickle.dump(best_scores, handle, protocol=pickle.HIGHEST_PROTOCOL)

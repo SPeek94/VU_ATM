@@ -14,30 +14,30 @@ with open(
     r"D:\Studie\Business Analytics\Applied Text Mining\best_scores.pickle", "rb"
 ) as handle:
     best_scores = pickle.load(handle)
+best_scores
 
-
-order_of_removal.reverse()
-order_of_removal.append("Use all features")
-
-best_scores.reverse()
-best_scores.append(best_scores[-1])
+order_of_removal.append("next_bigram_list_vectors")
+best_scores.append(0.9959984421730042)
 
 
 df_bar = pd.DataFrame(
     {"F1-score": best_scores}, columns=["F1-score"], index=order_of_removal
 )
 
-df_bar.plot.barh(
-    figsize=(18, 8),
+ax = df_bar.plot.barh(
+    figsize=(12, 6),
     legend=False,
     xlim=(np.min(best_scores) - 0.0001, np.max(best_scores) + 0.0001),
 )
 
-plt.title(
-    "The effect of ablating the least important feature when running an MLP model",
-    size=18,
-)
-plt.xlabel("F1-score", size=18)
-plt.ylabel("Last ablated feature", size=18)
-plt.savefig("FAS_MLP.pdf")
+ax.text(best_scores[-2] + 0.000001, 10 - 0.06, order_of_removal[-2:], color="black")
+for i in [1, 3, 4, 5, 6]:
+    ax.text(
+        best_scores[-2] + 0.000001, 12 - i - 0.06, order_of_removal[-i:], color="white"
+    )
+
+plt.title("The effect of removing the next least important feature (flipped)", size=16)
+plt.xlabel("F1-score", size=14)
+plt.ylabel("Last added feature", size=14)
+plt.savefig("FAS_MLPV2.pdf", bbox_inches="tight")
 plt.show()
