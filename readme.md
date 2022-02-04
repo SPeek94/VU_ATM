@@ -27,11 +27,12 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Negation cue detection with the use of Machine learning models
+# Negation cue detection with the use of Machine learning models
 
 This repository contains all code and information used for a project which evolved around detecting negations cues in text. Contributors to this project were Stan van Loon, Sebastiaan Peek and Joshua Thomas (for assignment 2,3 and 4).
 
-# First assignment and second assignment -- Annotations
+<!-- First and Second assignment-->
+## Annotations
 
 For the first assignment annotation had to be made manually to give insights about how different people have different guidelines when annotating.
 
