@@ -10,7 +10,13 @@ print("imports complete")
 
 
 def LoadAnnotatedData(inputfile):
-    """"""
+    """
+    Function to load data
+
+    input: File to be loaded
+
+    output: List of tokenized sentences
+    """
 
     df_unprocessed = pd.read_csv(
         inputfile,
@@ -57,7 +63,13 @@ def LoadAnnotatedData(inputfile):
 
 
 def create_parsed_df(token_sentences):
-    """"""
+    """
+    Parses each sentence of a list and appends it to a dataframe
+
+    input: List of sentences
+
+    output: Dataframe with parsed data
+    """
 
     listOfDicts = []
     sent_idx = 0

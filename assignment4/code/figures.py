@@ -20,6 +20,8 @@ order_of_removal.append("next_bigram_list_vectors")
 best_scores.append(0.9959984421730042)
 
 
+# Next code is to create the feature ablation bar plot for the MLP model
+
 df_bar = pd.DataFrame(
     {"F1-score": best_scores}, columns=["F1-score"], index=order_of_removal
 )
