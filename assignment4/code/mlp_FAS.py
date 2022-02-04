@@ -119,31 +119,6 @@ def combine_features(df, all_features, enc_features):
     return x
 
 
-# x_train = combine_features(df_train, all_features)
-# y_train = enc_labels.transform(df_train[target]).toarray()
-
-
-# x_val = combine_features(df_val, all_features)
-# y_val = enc_labels.transform(df_val[target]).toarray()
-
-
-# x_test_circle = combine_features(df_test_circle, all_features)
-# y_test_circle = enc_labels.transform(df_test_circle[target]).toarray()
-
-
-# x_test_cardboard = combine_features(df_test_cardboard, all_features)
-# y_test_cardboard = enc_labels.transform(df_test_cardboard[target]).toarray()
-
-# x_train_val = np.vstack((x_train, x_val))
-# y_train_val = np.vstack((y_train, y_val))
-
-# n_data = x_train_val.shape[0]
-# n_samples = 20000
-# idx = np.random.randint(n_data, size=n_samples)
-# x_test = x_train_val[idx, :]
-# y_test = y_train_val[idx, :]
-
-
 def get_f1(y_true, y_pred):  # taken from old keras source code
     true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
     possible_positives = K.sum(K.round(K.clip(y_true, 0, 1)))

@@ -1,3 +1,9 @@
+# File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
+
+# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,python
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,python
+
+### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -151,29 +157,61 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
-# files
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,python
+
+# Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 *.pdf
 *.zip
-*300.bin
-*300.bin.gz
-# eHost
+.virtual_documents/
+*.docx
 ehost-bp-1/
-ATM_assignment1/
-readings/
-
-# batch files per student
-corpus/
-
-# XML files
-
-
-
-
-#
-*vectorized.csv
-requirements.txt 
-word2vec_model_vectors1
-word2vec_model_vectors2
-word2vec_model1
-word2vec_model2
+workspace-negation-annotation/
+literature/
+other/remove_annotations.py
