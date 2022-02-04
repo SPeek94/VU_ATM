@@ -75,6 +75,13 @@ target_labels = enc_labels.get_feature_names_out(target)
 
 
 def sum_arrays(arrays):
+    """
+    Function to sum a list of arrays
+
+    input: list of arrays with exact same shape
+
+    output: single array with the same shape as on of the arrays in the list
+    """
     if isinstance(arrays, np.ndarray) and len(arrays) == 300:
         return arrays
     else:
@@ -82,6 +89,13 @@ def sum_arrays(arrays):
 
 
 def combine_vector_features(df, list_of_features):
+    """
+    Function that combines a list of vectors to one single vector
+
+    input = dataframe and list with all vectorized features to be combined
+
+    output = An array og the combined features
+    """
     df = df[list_of_features].applymap(sum_arrays)
     combined_vectors = df.apply(np.concatenate, axis=1)
     array_of_vector = np.array(combined_vectors.values.tolist())
@@ -89,12 +103,26 @@ def combine_vector_features(df, list_of_features):
 
 
 def make_oneHot_features(df, list_of_features, enc_features):
+    """
+    Function to create on hot features
+
+    input: dataframe and list with all categorical features to be encoded and the encoder
+
+    output: an array containing all one hot encoded features
+    """
     df = df[list_of_features]
     one_hot_labels = enc_features.transform(df).toarray()
     return one_hot_labels
 
 
 def combine_features(df, all_features, enc_features):
+    """
+    Function to combine vectorized features and one hot encoded features
+
+    input: dataframe and list with all features to be combined and the encoder
+
+    output: an array containing all instances with encoded and vectorized features combined to a single vector
+    """
     vector_features = [
         x for x in all_features if x not in set(cat_features + bool_features)
     ]
@@ -113,7 +141,14 @@ def combine_features(df, all_features, enc_features):
     return x
 
 
-def get_f1(y_true, y_pred):  # taken from old keras source code
+def get_f1(y_true, y_pred):
+    """
+    Function to get f1 score
+
+    input: true labels and predicted labels
+
+    out: F1 score
+    """
     true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
     possible_positives = K.sum(K.round(K.clip(y_true, 0, 1)))
     predicted_positives = K.sum(K.round(K.clip(y_pred, 0, 1)))
@@ -143,6 +178,13 @@ y_test = np.vstack((y_test_circle, y_test_cardboard))
 
 
 def mlp(input_):
+    """
+    Compiles a sequential MLP model
+
+    input: training data to determine shape
+
+    output: compiled model
+    """
     model = Sequential()
     model.add(
         Dense(
